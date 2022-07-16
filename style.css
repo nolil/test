@@ -1,0 +1,54 @@
+/*   
+Theme Name: nolilBlog
+Description: краткое-описание-темы
+Author: nolil
+Author URI: last
+
+.
+Развёрнутое описание темы/Лицензия-если-нужно.
+.
+*/
+html,
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+.post{
+}
+.wrapper{
+    display: flex;
+    max-width: 900px;
+    min-width: 600px;
+    margin: 0 auto;
+    min-height: 100%;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    width: 100%;
+    flex: 1 1 auto;
+}
+.posts{
+    min-width: 100px;
+    min-height: 50px;
+    padding: 5px;
+
+    border-radius: 10px;
+    background: #ccc;
+}
+.posts + .posts{
+    margin-top: 10px;
+}
+aside{
+    max-width: 250px;
+    max-height: 1000px;
+    margin-left: 10px;
+
+    border-radius: 10px;
+    background: #ccc;
+}
+footer{
+    width: 100%;
+}
